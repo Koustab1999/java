@@ -1,0 +1,29 @@
+package com.valuemomentum.training.concurrency;
+
+class ThreadPriorityDemo extends Thread{       // explain the code ?			
+	
+											
+	 public void run(){
+
+	     System.out.println("Running thread is "+Thread.currentThread().getName());
+	     System.out.println("Running thread priority is "+Thread.currentThread().getPriority());
+	  }
+
+	public static void main(String args[]){
+
+	   ThreadPriorityDemo t1 = new ThreadPriorityDemo();
+	   ThreadPriorityDemo t2 = new ThreadPriorityDemo();
+	   ThreadPriorityDemo t3 = new ThreadPriorityDemo();
+
+	   t1.setPriority(Thread.MIN_PRIORITY); 
+	   t2.setPriority(Thread.MAX_PRIORITY);
+	   t3.setPriority(Thread.NORM_PRIORITY);
+
+	   t1.setName("Raj on Java"); 		// t1 third
+	   t2.setName("Raj JavaServices");  // t2 prints first because of the length of the strings
+	   t3.setName("testingjava.com");	// t3 prints second 
+	   t1.start();
+	   t2.start();
+	   t3.start();
+	 }
+	}

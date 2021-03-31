@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke" duration-ms="25174" started-at="2021-03-23T16:17:19 IST" finished-at="2021-03-23T16:17:44 IST">
+    <groups>
+    </groups>
+    <test name="Amazon Tests" duration-ms="25174" started-at="2021-03-23T16:17:19 IST" finished-at="2021-03-23T16:17:44 IST">
+      <class name="com.valuemomentum.training.testautomation.tests.SmokeTest2">
+        <test-method status="PASS" signature="test_beforesuit()[pri:0, instance:com.valuemomentum.training.testautomation.tests.SmokeTest2@1a4013]" name="test_beforesuit" is-config="true" duration-ms="5215" started-at="2021-03-23T16:17:19 IST" finished-at="2021-03-23T16:17:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_beforesuit -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.valuemomentum.training.testautomation.tests.SmokeTest2@1a4013]" name="setup" is-config="true" duration-ms="65" started-at="2021-03-23T16:17:24 IST" finished-at="2021-03-23T16:17:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Assessment2()[pri:0, instance:com.valuemomentum.training.testautomation.tests.SmokeTest2@1a4013]" name="Assessment2" duration-ms="18806" started-at="2021-03-23T16:17:24 IST" finished-at="2021-03-23T16:17:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assessment2 -->
+        <test-method status="PASS" signature="test_aftersuit()[pri:0, instance:com.valuemomentum.training.testautomation.tests.SmokeTest2@1a4013]" name="test_aftersuit" is-config="true" duration-ms="958" started-at="2021-03-23T16:17:43 IST" finished-at="2021-03-23T16:17:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_aftersuit -->
+      </class> <!-- com.valuemomentum.training.testautomation.tests.SmokeTest2 -->
+    </test> <!-- Amazon Tests -->
+  </suite> <!-- Smoke -->
+</testng-results>
